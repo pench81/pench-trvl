@@ -1,0 +1,38 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+
+<div class="bk-pt-default">
+
+<header class="template-header">
+     <div class="wrapper clearfix">
+        <div class="companyheader clearfix">
+            {{widget('logo', 'logo', {"defaultlogo": asset('images/logo.png')})|raw}}
+            {{widget('companyname', 'companyname', {"business": "profile"})|raw}}
+        </div>
+        {{widget('extendednavigation', 'navigationheader', {"align":"right"})|raw}}
+    </div>
+</header>
+
+<div class="main wrapper clearfix">
+    {{zone('main')|raw}}
+</div>  
+
+<footer class="template-footer">
+    <div class="wrapper clearfix">
+        <div class="responsivecolumns columns-two-50-50">
+           <div class="column columns-two-left">
+                {{widget('content', 'footercolumn1content1', {"content":"<h3>Lorem Ipsum Dolor</h3>"})|raw}}
+                {{widget('profile', 'footercolumn2profileaddress', { 'profileType':'address', 'address':'profile'})|raw}}
+           </div>
+           <div class="column columns-two-right">
+                {{widget('content', 'footercolumn2content1', {"content":"<h3>Pulvinar Vitae</h3>"})|raw}}
+                {{widget('profile', 'footercolumn2socialicons', { 'profileType' : 'socialicons' })|raw}}
+           </div>
+        </div>
+    </div>
+</footer>
+
+</div>
+
+{% endblock %}

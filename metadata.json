@@ -1,0 +1,148 @@
+{
+	"name":"Trvl",
+	"thumbnail":"trvl.png",
+	"screenshot":"trvl.png",
+	"templateType":"standard",
+	"pageTypes":["home"],
+    "tags": {
+    "en": ["colorful", "bright", "travel", "business", "holiday", "colourful", "stylish", "agency", "magazine", "creative", "elegant", "professional", "sophisticated", "media", "sans-serif"],
+    "es": ["colorido", "claro", "turismo", "corporativo", "vacaciones", "estilo", "agencia", "revista", "creativo", "elegante", "profesional", "sofisticado", "comunicacion", "sans-serif"],
+    "br": ["colorido", "claro", "turismo", "corporativo", "ferias", "estilo", "agência", "revista", "criativo", "elegante", "profissional", "sofisticado", "mídia", "sans-serif"]
+    },
+	"colorSwatches":
+    {
+        "Swatch 1": {
+            "color1":"#f5f1e7",
+            "color2":"#e08e79",
+            "color3":"#809999",
+            "color4":"#63524d",
+            "color5":"#9e9597",
+            "color6":"#515050",
+            "color7":"#f5f1e6"
+        },
+        "Swatch 2": {
+            "color1":"#f5f1e7",
+            "color2":"#809999",
+            "color3":"#c26b57",
+            "color4":"#63524d",
+            "color5":"#9e9597",
+            "color6":"#515050",
+            "color7":"#f5f1e6"
+        },
+        "Swatch 3": {
+            "color1":"#f9f6f4",
+            "color2":"#63524d",
+            "color3":"#809999",
+            "color4":"#57463B",
+            "color5":"#9e9597",
+            "color6":"#5f2109",
+            "color7":"#f5f1e7"
+        },
+        "Swatch 4": {
+            "color1":"#f5f1e7",
+            "color2":"#ee9970",
+            "color3":"#2c97a1",
+            "color4":"#57463B",
+            "color5":"#9e9597",
+            "color6":"#5f2109",
+            "color7":"#f5f1e7"
+        },
+        "Swatch 5": {
+            "color1":"#f5f1e7",
+            "color2":"#a68d82",
+            "color3":"#83b1b3",
+            "color4":"#63524d",
+            "color5":"#9e9597",
+            "color6":"#515050",
+            "color7":"#f5f1e6"
+        }
+    },
+    "fontSwatch": {
+       "title": "Lato",
+        "font1": {
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "30px",
+            "font-weight": "400",
+            "line-height": "36px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font2": {
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "24px",
+            "font-weight": "inherit",
+            "line-height": "36px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font3": {
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "20px",
+            "font-weight": "inherit",
+            "line-height": "34px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font4": {
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "18px",
+            "font-weight": "inherit",
+            "line-height": "34px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font5": {
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "16px",
+            "font-weight": "400",
+            "line-height": "28px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font6": {
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "14px",
+            "font-weight": "400",
+            "line-height": "28px",
+            "color": "@color-swatch6",
+            "color-hover": "@color-swatch2",
+            "letter-spacing": "inherit",
+            "background-color": "@color-swatch2",
+            "background-color-hover": "@color-swatch2"
+        },
+        "font7": {
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "16px",
+            "font-weight": "inherit",
+            "line-height": "26px",
+            "color": "@color-swatch1",
+            "letter-spacing": "inherit",
+            "background-color": "@color-swatch3",
+            "background-color-hover": "darken(@color-swatch3,5%)"
+        },
+        "font8": {
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "36px",
+            "font-weight": "400",
+            "line-height": "42px",
+            "color": "@color-swatch1",
+            "letter-spacing": "inherit"
+        },
+        "font9": {
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "24px",
+            "font-weight": "400",
+            "line-height": "34px",
+            "color": "@color-swatch1",
+            "letter-spacing": "inherit"
+        },
+         "font10": {
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "28px",
+            "font-weight": "400",
+            "line-height": "36px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        }
+    }
+}
